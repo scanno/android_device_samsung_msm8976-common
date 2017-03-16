@@ -1076,6 +1076,12 @@
             <ctl name="Headphone Playback Volume" value="25"/>
     </path>
 
+    <path name="headphones">
+        <path name="ear" />
+            <ctl name="DAC1 Playback Volume" value="175"/>
+            <ctl name="Headphone Playback Volume" value="25"/>
+    </path>
+
     <path name="speaker-and-headphones">
         <path name="spk-ear" />
             <ctl name="DAC1 Playback Volume" value="170"/>
@@ -1207,7 +1213,6 @@
             <ctl name="IN3 Boost Volume" value="16"/>
             <ctl name="STO1 ADC Capture Volume" value="47"/>
     </path>
-
     <!-- end of Recording Scenario -->
 
     <!-- ================================================================ -->
