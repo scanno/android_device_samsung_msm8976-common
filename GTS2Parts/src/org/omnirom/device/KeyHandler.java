@@ -176,5 +176,13 @@ public class KeyHandler implements DeviceKeyHandler {
         }
         return false;
     }
+
+    @Override
+    public Intent isActivityLaunchEvent(KeyEvent event) {
+        if (event.getAction() != KeyEvent.ACTION_UP) {
+            return null;
+        }
+        return null;
+    }
 }
 
