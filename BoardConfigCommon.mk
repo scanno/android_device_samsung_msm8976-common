@@ -182,6 +182,12 @@ TARGET_QCOM_MEDIA_VARIANT := caf-msm8952
 #TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 TARGET_QCOM_BLUETOOTH_VARIANT := caf-msm8952
 
+# Ramdisk
+BOARD_ROOT_EXTRA_FOLDERS := dsp efs firmware firmware-modem persist
+BOARD_ROOT_EXTRA_SYMLINKS := /system/etc/firmware/btfw32.tlv:/bt_firmware/image/btfw32.tlv
+BOARD_ROOT_EXTRA_SYMLINKS += /system/etc/firmware/btnv32.bin:/bt_firmware/image/btnv32.bin
+BOARD_ROOT_EXTRA_SYMLINKS += /data/tombstones:/tombstones
+
 # Render
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 USE_OPENGL_RENDERER := true
