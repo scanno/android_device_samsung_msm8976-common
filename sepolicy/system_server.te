@@ -8,3 +8,7 @@ r_dir_file(system_server, app_efs_file)
 
 # ADB over network
 allow system_server shell_prop:property_service set;
+
+# trying to fix stuff
+allow system_server qti_debugfs:file { getattr open read };
+

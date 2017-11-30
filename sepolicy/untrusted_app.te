@@ -1,0 +1,3 @@
+allow untrusted_app fuse_device:dir { getattr open read setattr };
+allow untrusted_app fuse_device:filesystem getattr;
+
