@@ -33,19 +33,19 @@
     "remote": "omnirom",
     "repository": "android_hardware_qcom_audio-caf-msm8952",
     "target_path": "hardware/qcom/audio-caf-msm8952",
-    "revision": "android-8.0"
+    "revision": "android-8.1"
   },
   {
     "remote": "omnirom",
     "repository": "android_hardware_qcom_display-caf-msm8952",
     "target_path": "hardware/qcom/display-caf-msm8952",
-    "revision": "android-8.0"
+    "revision": "android-8.1"
   },
   {
     "remote": "omnirom",
     "repository": "android_hardware_qcom_media-caf-msm8952",
     "target_path": "hardware/qcom/media-caf-msm8952",
-    "revision": "android-8.0"
+    "revision": "android-8.1"
   },
   {
     "repository": "android_external_ant-wireless_antradio-library",
