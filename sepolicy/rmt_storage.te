@@ -3,5 +3,9 @@ allow rmt_storage debugfs_rmt:file rw_file_perms;
 
 allow rmt_storage self:capability { net_raw sys_admin };
 
-set_prop(rmt_storage, rmt_storage_prop)  
 allow rmt_storage sysfs:file read;
+
+allow rmt_storage sysfs_rmt_storage:file rw_file_perms;
+allow rmt_storage sysfs_rmt_storage:dir { search open };
+
+set_prop(rmt_storage, rmt_storage_prop)
