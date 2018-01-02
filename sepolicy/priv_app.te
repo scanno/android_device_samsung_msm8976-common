@@ -12,3 +12,4 @@ allow priv_app mkfs_exec:lnk_file getattr;
 allow priv_app rfs_system_file:dir getattr;
 
 get_prop(priv_app, wifi_prop)
+get_prop(priv_app, net_dns_prop);
