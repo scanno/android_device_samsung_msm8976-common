@@ -14,4 +14,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources></resources>
+<resources>
+  <string name="app_name">Galaxy Tab S2</string>
+  <string name="advanced_settings">Täpsemad</string>
+  <string name="category_mdnie">MDNIE stsenaarium</string>
+  <string name="mdnie_title">Stsenaarium</string>
+  <string name="buttons_title">Nupud</string>
+  <string name="swap_back_recents_title">Vaheta tagasi ja viimatiste nupud</string>
+  <string name="homebutton_switch_title">Luba seadme käivitamine kodunupu vajutusel</string>
+</resources>

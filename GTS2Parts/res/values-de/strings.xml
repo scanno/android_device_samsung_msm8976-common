@@ -14,4 +14,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources></resources>
+<resources>
+  <string name="app_name">Galaxy Tab S2</string>
+  <string name="advanced_settings">Erweitert</string>
+  <string name="category_mdnie">MDNIE-Szenario</string>
+  <string name="mdnie_title">Szenario</string>
+  <string name="buttons_title">Tasten</string>
+  <string name="swap_back_recents_title">Zurück- und Verlauf-Taste tauschen</string>
+  <string name="homebutton_switch_title">Gerät durch Drücken der Start-Taste wecken</string>
+</resources>
