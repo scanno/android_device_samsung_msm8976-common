@@ -14,4 +14,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources></resources>
+<resources>
+  <string name="app_name">Galaxy Tab S2</string>
+  <string name="advanced_settings">Дополнительно</string>
+  <string name="category_mdnie">Сценарий MDNIE</string>
+  <string name="mdnie_title">Сценарий</string>
+  <string name="buttons_title">Кнопки</string>
+  <string name="swap_back_recents_title">Поменять местами кнопки \"Назад\" и кнопку \"Обзор\"</string>
+  <string name="homebutton_switch_title">Пробуждение экрана при нажатии кнопки \"Домой\"</string>
+</resources>
