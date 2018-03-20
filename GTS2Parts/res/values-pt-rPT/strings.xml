@@ -16,10 +16,10 @@
 -->
 <resources>
   <string name="app_name">Galaxy Tab S2</string>
-  <string name="advanced_settings">Preferências Avançadas</string>
+  <string name="advanced_settings">Avançadas</string>
   <string name="category_mdnie">Cenário do MDNIE</string>
   <string name="mdnie_title">Cenário</string>
   <string name="buttons_title">Botões</string>
-  <string name="swap_back_recents_title">Trocar o botão de voltar e recentes</string>
-  <string name="homebutton_switch_title">Ativar dispositivo através da tecla Home</string>
+  <string name="swap_back_recents_title">Trocar os botões Anterior e Visão geral</string>
+  <string name="homebutton_switch_title">Acordar o dispositivo através do botão Página Inicial</string>
 </resources>
