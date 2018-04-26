@@ -15,5 +15,11 @@
      limitations under the License.
 -->
 <resources>
+  <string name="app_name">Galaxy Tab 2</string>
   <string name="advanced_settings">Avanzado</string>
+  <string name="category_mdnie">Escenario MDNIE</string>
+  <string name="mdnie_title">Escenario</string>
+  <string name="buttons_title">Botones</string>
+  <string name="swap_back_recents_title">Intercambiar botones atrás y recientes</string>
+  <string name="homebutton_switch_title">Activar despertar dispositivo presionando el botón de inicio</string>
 </resources>

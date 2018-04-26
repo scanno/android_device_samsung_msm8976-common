@@ -14,4 +14,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources></resources>
+<resources>
+  <string name="app_name">Galaxy Tab S2</string>
+  <string name="advanced_settings">Qabaqcıl</string>
+  <string name="category_mdnie">MDNIE Senarisi</string>
+  <string name="mdnie_title">Ssenari</string>
+  <string name="buttons_title">Düymələr</string>
+  <string name="swap_back_recents_title">Geri və son tətbiqlər düyməsini mübadilə et</string>
+  <string name="homebutton_switch_title">Ana Ekran düyməsinə basaraq oyanmanı aktivləşdir</string>
+</resources>
