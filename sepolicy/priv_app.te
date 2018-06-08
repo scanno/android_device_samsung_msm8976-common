@@ -3,6 +3,7 @@ allow priv_app fuse_device:dir setattr;
 allow priv_app fuse_device:file setattr;
 allow priv_app proc_interrupts:file { open read };
 allow priv_app net_dns_prop:file read;
+allow priv_app fsck_exec:lnk_file getattr;
 
 # Do not audit priv-app access to prop service, it's forbidden anyways
 dontaudit priv_app property_socket:sock_file write;
