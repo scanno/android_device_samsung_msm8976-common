@@ -3,3 +3,6 @@ allow untrusted_app_25 fuse_device:file { getattr open read write setattr create
 allow untrusted_app_25 fuse_device:filesystem getattr;
 
 allow untrusted_app_25 storage_stub_file:dir getattr;
+
+allow untrusted_app_25 camera_prop:file read;
+allow untrusted_app_25 sysfs:file read;
