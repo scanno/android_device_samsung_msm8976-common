@@ -14,4 +14,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources></resources>
+<resources>
+  <string name="app_name">Galaxy Tab S2</string>
+  <string name="advanced_settings">高度な設定</string>
+  <string name="category_mdnie">MDNIE シナリオ</string>
+  <string name="mdnie_title">シナリオ</string>
+  <string name="buttons_title">ボタン</string>
+  <string name="swap_back_recents_title">戻るとアプリ履歴のボタンを交換する</string>
+  <string name="homebutton_switch_title">ホームボタンを押して画面点灯できるようにする</string>
+</resources>

@@ -20,6 +20,6 @@
   <string name="category_mdnie">MDNIE Senaryosu</string>
   <string name="mdnie_title">Senaryo</string>
   <string name="buttons_title">Düğmeler</string>
-  <string name="swap_back_recents_title">Geri ve son uygulamalar düğmesini mübadele et</string>
+  <string name="swap_back_recents_title">Geri ve son uygulamalar düğmesini değiş tokuş et</string>
   <string name="homebutton_switch_title">Ana ekran düğmesine dokunarak cihazı uyandırmayı etkinleştir</string>
 </resources>

@@ -14,4 +14,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources></resources>
+<resources>
+  <string name="app_name">Galaxy Tab S2</string>
+  <string name="advanced_settings">Avançat</string>
+  <string name="category_mdnie">Escenari MDNIE</string>
+  <string name="mdnie_title">Escenari</string>
+  <string name="buttons_title">Botons</string>
+  <string name="swap_back_recents_title">Intercanvi dels botons enrere i recents</string>
+  <string name="homebutton_switch_title">Habilita el despertar del dispositiu prement el botó inici</string>
+</resources>
