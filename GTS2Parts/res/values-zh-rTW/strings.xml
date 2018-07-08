@@ -14,4 +14,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources></resources>
+<resources>
+  <string name="app_name">Galaxy Tab S2</string>
+  <string name="advanced_settings">進階選項</string>
+  <string name="category_mdnie">MDNIE</string>
+  <string name="mdnie_title">情景</string>
+  <string name="buttons_title">按鍵</string>
+  <string name="swap_back_recents_title">交換返回鍵與多任務按鍵</string>
+  <string name="homebutton_switch_title">啟用主頁鍵喚醒設備</string>
+</resources>
