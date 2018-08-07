@@ -20,9 +20,6 @@ on boot
     # Enable sched boost
     write /proc/sys/kernel/sched_boost 1
 
-on post-fs-data
-    trigger enable-low-power
-
 on enable-low-power
     # HMP scheduler (big.Little cluster related) settings
     write /proc/sys/kernel/sched_upmigrate 95
@@ -196,10 +193,11 @@ on charger
     # Set perfd properties
     rm /data/system/perfd/default_values
     start perfd
-    
 
 on property:init.svc.recovery=running
     trigger enable-low-power
 
 on property:dev.bootcomplete=1
+    trigger enable-low-power
+
     setprop sys.io.scheduler "bfq"

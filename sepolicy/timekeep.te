@@ -1,9 +1,10 @@
 type timekeep, domain;
-type timekeep_exec, exec_type, file_type;
+type timekeep_exec, exec_type, vendor_file_type, file_type;
 
 # Started by init
 init_daemon_domain(timekeep)
 
+# Grant permission to set system time and to set the real-time lock
 allow timekeep self:capability {
     fowner
     fsetid
